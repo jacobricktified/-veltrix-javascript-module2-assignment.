@@ -42,5 +42,17 @@ if (score >= 80) {
 } else {
     console.log("Grade: F");
 }
-console.log("--------------------------------------------------\n");    
-
+console.log("--------------------------------------------------\n"); 
+/* 3. Ask the user for a number. If it’s:
+ Even → print “Even number”
+ Odd → print “Odd number”
+ Not a number → print “Invalid input” */
+console.log("3. Check if a number is even, odd, or invalid:");
+let input = 7; // You can change this value to test different cases
+if(input % 2 === 0) {
+    console.log("Even number");
+} else if(input % 2 !== 0) {
+    console.log("Odd number");
+} else {
+    console.log("Invalid input");
+}
