@@ -71,3 +71,18 @@ if (num1 >= num2 && num1 >= num3) {
     console.log("The largest number is: " + num3);
 }
 console.log("--------------------------------------------------\n");
+/** 2. Write a program that checks if a password is strong:
+ Must be at least 8 characters
+ Must include a number
+ Must include an uppercase letter
+ Print “Strong Password” or “Weak Password”. */
+console.log("6. Check password strength:");
+let password = "Password1"; // You can change this value to test different cases
+let hasUppercase = /[A-Z]/.test(password);
+let hasNumber = /[0-9]/.test(password);
+if (password.length >= 8 && hasUppercase && hasNumber) {
+    console.log("Strong Password");
+} else {
+    console.log("Weak Password");
+}
+console.log("--------------------------------------------------\n");
