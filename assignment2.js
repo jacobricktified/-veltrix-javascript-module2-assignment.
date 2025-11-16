@@ -22,3 +22,25 @@ if (userAge >= 18) {
     console.log("Access Denied");
 }
 console.log("--------------------------------------------------\n");
+/*  1. A student score is stored in a variable: let score = 74;
+ 2. Use if...else if...else to print:
+ A (>= 80)
+ B (>= 70)
+ C (>= 60)
+ D (>= 50)
+ F (below 50*/
+console.log("3. Grade based on score:");
+let score = 74; // You can change this value to test different cases
+if (score >= 80) {
+    console.log("Grade: A");
+} else if (score >= 70) {
+    console.log("Grade: B");
+} else if (score >= 60) {
+    console.log("Grade: C");
+} else if (score >= 50) {
+    console.log("Grade: D");
+} else {
+    console.log("Grade: F");
+}
+console.log("--------------------------------------------------\n");    
+
