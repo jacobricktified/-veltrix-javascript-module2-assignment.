@@ -47,7 +47,7 @@ console.log("--------------------------------------------------\n");
  Even → print “Even number”
  Odd → print “Odd number”
  Not a number → print “Invalid input” */
-console.log("3. Check if a number is even, odd, or invalid:");
+console.log("4. Check if a number is even, odd, or invalid:");
 let input = 7; // You can change this value to test different cases
 if(input % 2 === 0) {
     console.log("Even number");
@@ -56,3 +56,18 @@ if(input % 2 === 0) {
 } else {
     console.log("Invalid input");
 }
+console.log("--------------------------------------------------\n");
+/*1. Given three numbers, write logic to determine and print the largest.  */
+console.log("5. Find the largest of three numbers:");
+let num1 = 10;
+let num2 = 20;
+let num3 = 15;
+
+if (num1 >= num2 && num1 >= num3) {
+    console.log("The largest number is: " + num1);
+} else if (num2 >= num1 && num2 >= num3) {
+    console.log("The largest number is: " + num2);
+} else {
+    console.log("The largest number is: " + num3);
+}
+console.log("--------------------------------------------------\n");
