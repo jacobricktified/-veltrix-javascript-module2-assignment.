@@ -138,4 +138,10 @@ let fullName = "Jacob Gichira Mbuco";
 console.log("Length: " + fullName.length);
 console.log("First character: " + fullName.charAt(0));
 console.log("Last character: " + fullName.charAt(fullName.length - 1));
-console.log("--------------------------------------------------\n");    
+console.log("--------------------------------------------------\n");  
+/*Write a program to convert a string to uppercase and lowercase. */
+console.log("11. Convert string to uppercase and lowercase:");
+let sampleString = "Hello World!";
+console.log("Uppercase: " + sampleString.toUpperCase());
+console.log("Lowercase: " + sampleString.toLowerCase());
+console.log("--------------------------------------------------\n");      
