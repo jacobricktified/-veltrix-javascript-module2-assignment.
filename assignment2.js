@@ -291,3 +291,12 @@ for (let i = 1; i <= 100; i++) {
     }
 }
 console.log("--------------------------------------------------\n");
+/*1. Write a loop to find the sum of all numbers in an array */
+console.log("27. Find the sum of all numbers in an array:");
+let numbersArray = [5, 10, 15, 20];
+let sum = 0;
+for (let i = 0; i < numbersArray.length; i++) {
+    sum += numbersArray[i];
+}
+console.log("Sum of all numbers: " + sum);
+console.log("--------------------------------------------------\n");
