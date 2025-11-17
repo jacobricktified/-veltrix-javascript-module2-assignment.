@@ -86,3 +86,18 @@ if (password.length >= 8 && hasUppercase && hasNumber) {
     console.log("Weak Password");
 }
 console.log("--------------------------------------------------\n");
+/** 1. Write a switch statement that prints the name of the day when given a number from 1–7 
+(Sunday - Saturday)*/
+console.log("7. Print day name based on number:");
+let dayNumber = 3; // You can change this value to test different cases
+switch (dayNumber) {
+    case 1: console.log("Sunday"); break;
+    case 2: console.log("Monday"); break;
+    case 3: console.log("Tuesday"); break; 
+    case 4: console.log("Wednesday"); break;
+    case 5: console.log("Thursday"); break;
+    case 6: console.log("Friday"); break;  
+    case 7: console.log("Saturday"); break;
+    default: console.log("Invalid day number");
+}   
+console.log("--------------------------------------------------\n");
