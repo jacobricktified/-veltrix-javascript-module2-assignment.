@@ -214,3 +214,12 @@ for (let i = 0; i < nums.length; i++) {
 }
 console.log("Numbers multiplied by 2: ", multipliedNums);
 console.log("--------------------------------------------------\n");
+/*Combine these arrays into one:
+ 4. let a = ["A", "B"];
+ 5. let b = ["C", "D"] */
+console.log("18. Combine two arrays:");
+let a = ["A", "B"];
+let b = ["C", "D"];
+let combinedArray = a.concat(b);
+console.log("Combined array: ", combinedArray);
+console.log("--------------------------------------------------\n");    
