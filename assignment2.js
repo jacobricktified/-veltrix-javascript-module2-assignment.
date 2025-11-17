@@ -350,3 +350,9 @@ while (index < textToCheck.length) {
 }
 console.log("Number of 'a' letters: " + aCount);
 console.log("--------------------------------------------------\n");
+/* Write a program that removes all falsy values from this array: [0, 1, false, 2, "", 3, null, "Hello"]*/
+console.log("33. Remove all falsy values from an array:");
+let arrayWithFalsy = [0, 1, false, 2, "", 3, null, "Hello"];
+let truthyArray = arrayWithFalsy.filter(Boolean);// The Boolean function filters out all falsy values
+console.log("Array after removing falsy values: ", truthyArray);
+console.log("--------------------------------------------------\n");
