@@ -283,3 +283,11 @@ for (let i = 0; i < fruits.length; i++) {
     console.log(fruits[i]);
 }
 console.log("--------------------------------------------------\n");
+/* 3. Loop through an array of numbers from 1 - 100 and print only numbers greater than 50. */
+console.log("26. Print numbers greater than 50 from 1 to 100:");
+for (let i = 1; i <= 100; i++) {
+    if (i > 50) {   
+        console.log(i);
+    }
+}
+console.log("--------------------------------------------------\n");
