@@ -196,4 +196,21 @@ colors.push("Orange");
 console.log("After push: ", colors);
 colors.shift();
 console.log("After shift: ", colors);
-console.log("--------------------------------------------------\n");    
+console.log("--------------------------------------------------\n"); 
+/* Given: let nums = [4, 8, 2, 15, 23, 7];
+ 2. Write logic to:
+ Sort the array
+ Filter numbers greater than 10
+ Multiply each number by 2 using for-loop */
+console.log("17. Array operations on nums:");
+let nums = [4, 8, 2, 15, 23, 7];
+nums.sort((a, b) => a - b);//i have sorted the numbers by doing a-b to get ascending order and (a, b) are the two elements being compared this is called a compare function
+console.log("Sorted array: ", nums);
+let filteredNums = nums.filter(num => num > 10);
+console.log("Numbers greater than 10: ", filteredNums);
+let multipliedNums = [];   
+for (let i = 0; i < nums.length; i++) {
+    multipliedNums.push(nums[i] * 2);
+}
+console.log("Numbers multiplied by 2: ", multipliedNums);
+console.log("--------------------------------------------------\n");
