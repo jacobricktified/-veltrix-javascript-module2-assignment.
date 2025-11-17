@@ -10,6 +10,7 @@ if (num > 0) {
 } else {
     console.log("The number is zero.");
 }
+console.log("From Kennedy Chukwu(Veltrix Instructor): Your logic is great\n")
 console.log("--------------------------------------------------\n");
 
  /*2. Write a program that checks whether a user’s age is 18 or older and prints “Access 
@@ -21,6 +22,7 @@ if (userAge >= 18) {
 } else {
     console.log("Access Denied");
 }
+console.log("From Kennedy Chukwu(Veltrix Instructor): Your logic is great\n")
 console.log("--------------------------------------------------\n");
 /*  1. A student score is stored in a variable: let score = 74;
  2. Use if...else if...else to print:
@@ -42,13 +44,14 @@ if (score >= 80) {
 } else {
     console.log("Grade: F");
 }
+console.log("From Kennedy Chukwu(Veltrix Instructor): Your logic is great\n")
 console.log("--------------------------------------------------\n"); 
 /* 3. Ask the user for a number. If it’s:
  Even → print “Even number”
  Odd → print “Odd number”
  Not a number → print “Invalid input” */
-console.log("4. Check if a number is even, odd, or invalid:");
-let input = 7; // You can change this value to test different cases
+console.log("4. Check if a number is even, odd, or invalid: ");
+let input = 7; // "7" this will output Odd number // You can change this value to test different cases
 if(input % 2 === 0) {
     console.log("Even number");
 } else if(input % 2 !== 0) {
@@ -56,6 +59,8 @@ if(input % 2 === 0) {
 } else {
     console.log("Invalid input");
 }
+console.log("From Kennedy Chukwu(Veltrix Instructor): Your logic is great\nI have question: What happens if the number is a String value '7' ")
+console.log("Work on your logic to take care of Numbers when they are passed as Strings ")
 console.log("--------------------------------------------------\n");
 /*1. Given three numbers, write logic to determine and print the largest.  */
 console.log("5. Find the largest of three numbers:");
@@ -70,6 +75,7 @@ if (num1 >= num2 && num1 >= num3) {
 } else {
     console.log("The largest number is: " + num3);
 }
+console.log("From Kennedy Chukwu(Veltrix Instructor): Your logic is great\n")
 console.log("--------------------------------------------------\n");
 /** 2. Write a program that checks if a password is strong:
  Must be at least 8 characters
@@ -85,4 +91,6 @@ if (password.length >= 8 && hasUppercase && hasNumber) {
 } else {
     console.log("Weak Password");
 }
+console.log("From Kennedy Chukwu(Veltrix Instructor): Your logic is great\n.You will work me through on how you solved the problem and came up with the test() function call")
 console.log("--------------------------------------------------\n");
+console.log("From Kennedy Chukwu(Veltrix Instructor): Weldone, this are the ones you were able to do or you didn't have the time to finish?")
