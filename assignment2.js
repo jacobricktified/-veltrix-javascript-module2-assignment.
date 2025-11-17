@@ -234,4 +234,11 @@ for (let i = 0; i < sampleArray.length; i++) {
     }
 }
 console.log("The value " + valueToCount + " appears " + occurrenceCount + " times in the array.");
-console.log("--------------------------------------------------\n");        
+console.log("--------------------------------------------------\n");  
+/*Write a ternary statement to check if a number is even or odd. */
+console.log("20. Ternary statement to check if a number is even or odd:");
+let numberToCheckTernary = 9; // You can change this value to test different cases
+let result = (numberToCheckTernary % 2 === 0) ? "Even number" : "Odd number";
+console.log(result);
+console.log("--------------------------------------------------\n");    
+      
