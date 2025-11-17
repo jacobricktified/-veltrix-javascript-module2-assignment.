@@ -334,4 +334,19 @@ while (total < 100) {
     numToAdd++;
 }
 console.log("Total after adding numbers until reaching 100: " + total);
-console.log("--------------------------------------------------\n");    
+console.log("--------------------------------------------------\n");
+/* Given: let text = "banana";
+ 2. Using a while loop, count how many times the letter “a” appears. */
+console.log("32. Count occurrences of letter 'a' in a string using a while loop:");
+let textToCheck = "banana";
+let index = 0;
+let aCount = 0;
+
+while (index < textToCheck.length) {
+    if (textToCheck[index] === "a") {
+        aCount++;
+    }
+    index++;
+}
+console.log("Number of 'a' letters: " + aCount);
+console.log("--------------------------------------------------\n");
