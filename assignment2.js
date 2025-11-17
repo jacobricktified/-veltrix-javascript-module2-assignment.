@@ -163,4 +163,10 @@ console.log("13. Split string into array of words:");
 let stringToSplit = "Learn JavaScript step by step";
 let wordsArray = stringToSplit.split(" ");
 console.log("Array of words: ", wordsArray);
-console.log("--------------------------------------------------\n");      
+console.log("--------------------------------------------------\n");    
+/*Remove all spaces from a string and convert it to lowercase. */
+console.log("14. Remove spaces and convert to lowercase:");
+let stringWithSpaces = "   Hello World   ";
+let modifiedString = stringWithSpaces.replace(/\s+/g, '').toLowerCase();// Using regex to remove all spaces by replacing them with empty string and converting to lowercase
+console.log("Modified string: '" + modifiedString + "'");
+console.log("--------------------------------------------------\n");  
