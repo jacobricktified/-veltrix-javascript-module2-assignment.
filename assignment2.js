@@ -170,3 +170,14 @@ let stringWithSpaces = "   Hello World   ";
 let modifiedString = stringWithSpaces.replace(/\s+/g, '').toLowerCase();// Using regex to remove all spaces by replacing them with empty string and converting to lowercase
 console.log("Modified string: '" + modifiedString + "'");
 console.log("--------------------------------------------------\n");  
+/*Count how many times the letter “a” appears in a string (using a for-loop). */
+console.log("15. Count occurrences of letter 'a':");
+let stringToCount = "An apple a day keeps the doctor away";
+let count = 0;
+for (let i = 0; i < stringToCount.length; i++) {
+    if (stringToCount.charAt(i).toLowerCase() === 'a') {
+        count++;
+    }
+}
+console.log("Number of 'a' letters: " + count);
+console.log("--------------------------------------------------\n");
