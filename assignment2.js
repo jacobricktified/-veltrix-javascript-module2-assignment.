@@ -274,5 +274,12 @@ for (let i = 1; i <= 20; i++) {
         console.log(i);
     }
 }
-console.log("--------------------------------------------------\n");       
-
+console.log("--------------------------------------------------\n");
+/* 1. Given the array: let fruits = ["Apple", "Banana", "Mango"];
+ 2. Use a loop to print each fruit. */
+console.log("25. Print each fruit from the array:");
+let fruits = ["Apple", "Banana", "Mango"];       
+for (let i = 0; i < fruits.length; i++) {
+    console.log(fruits[i]);
+}
+console.log("--------------------------------------------------\n");
