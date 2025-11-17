@@ -157,4 +157,10 @@ let replaced = complexString.replace("awesome", "powerful");
 console.log("After replacement: " + replaced);
 let includesScript = complexString.includes("Script");
 console.log("Includes 'Script': " + includesScript);
-console.log("--------------------------------------------------\n");    
+console.log("--------------------------------------------------\n");  
+/*Split this string into an array of words: "Learn JavaScript step by step" */
+console.log("13. Split string into array of words:");
+let stringToSplit = "Learn JavaScript step by step";
+let wordsArray = stringToSplit.split(" ");
+console.log("Array of words: ", wordsArray);
+console.log("--------------------------------------------------\n");      
