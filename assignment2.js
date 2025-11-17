@@ -181,3 +181,19 @@ for (let i = 0; i < stringToCount.length; i++) {
 }
 console.log("Number of 'a' letters: " + count);
 console.log("--------------------------------------------------\n");
+/*Create an array of 5 colors. Log:
+ The first color
+The last color
+ The array length
+ 2. Add a new color to the end using push().
+ 3. Remove the first color using shift(). */
+console.log("16. Array of colors operations:");
+let colors = ["Red", "Green", "Blue", "Yellow", "Purple"];
+console.log("First color: " + colors[0]);
+console.log("Last color: " + colors[colors.length - 1]);
+console.log("Array length: " + colors.length);
+colors.push("Orange");
+console.log("After push: ", colors);
+colors.shift();
+console.log("After shift: ", colors);
+console.log("--------------------------------------------------\n");    
