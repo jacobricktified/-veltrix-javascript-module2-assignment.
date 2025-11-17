@@ -317,3 +317,11 @@ while (countWhile <= 5) {
     countWhile++;
 }
 console.log("--------------------------------------------------\n");
+/*Count down from 10 to 1 using a while loop. */
+console.log("30. Count down from 10 to 1 using a while loop:");
+let countdown = 10;
+while (countdown >= 1) {
+    console.log(countdown);
+    countdown--;
+}
+console.log("--------------------------------------------------\n");
