@@ -249,4 +249,16 @@ let userAgeTernary = 16; // You can change this value to test different cases
 let ageResult = (userAgeTernary >= 18) ? "Adult" : "Minor";
 console.log(ageResult);     
 console.log("--------------------------------------------------\n"); 
+/* Convert this if...else into a ternary:
+ if (score >= 70) {
+ grade = "Pass";
+ } else {
+ grade = "Fail";
+ }
+ */
+console.log("22. Convert if...else to ternary:");
+let scoreTernary = 65; // You can change this value to test different cases
+let grade = (scoreTernary >= 70) ? "Pass" : "Fail";
+console.log("Grade: " + grade);
+console.log("--------------------------------------------------\n");        
 
