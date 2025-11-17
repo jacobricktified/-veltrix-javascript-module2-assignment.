@@ -300,3 +300,12 @@ for (let i = 0; i < numbersArray.length; i++) {
 }
 console.log("Sum of all numbers: " + sum);
 console.log("--------------------------------------------------\n");
+/*. Reverse an array manually (without using reverse()). */
+console.log("28. Reverse an array manually:");
+let arrayToReverse = [1, 2, 3, 4, 5];
+let reversedArray = [];
+for (let i = arrayToReverse.length - 1; i >= 0; i--) {
+    reversedArray.push(arrayToReverse[i]);
+}
+console.log("Reversed array: " + reversedArray);
+console.log("--------------------------------------------------\n");
