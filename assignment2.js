@@ -129,3 +129,13 @@ switch (fruitName) {
     default: console.log("Fruit not available");
 }   
 console.log("--------------------------------------------------\n");
+/* Declare a string variable containing your full name. Print:
+ The length
+ The first character
+ The last character*/
+console.log("10. String properties of full name:");
+let fullName = "Jacob Gichira Mbuco";
+console.log("Length: " + fullName.length);
+console.log("First character: " + fullName.charAt(0));
+console.log("Last character: " + fullName.charAt(fullName.length - 1));
+console.log("--------------------------------------------------\n");    
