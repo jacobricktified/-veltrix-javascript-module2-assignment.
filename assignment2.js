@@ -325,3 +325,13 @@ while (countdown >= 1) {
     countdown--;
 }
 console.log("--------------------------------------------------\n");
+/*Using a while loop, keep adding numbers until you reach 100. */
+console.log("31. Keep adding numbers until reaching 100 using a while loop:");
+let total = 0;
+let numToAdd = 1;
+while (total < 100) {
+    total += numToAdd;
+    numToAdd++;
+}
+console.log("Total after adding numbers until reaching 100: " + total);
+console.log("--------------------------------------------------\n");    
