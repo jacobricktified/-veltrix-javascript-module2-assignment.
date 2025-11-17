@@ -260,5 +260,11 @@ console.log("22. Convert if...else to ternary:");
 let scoreTernary = 65; // You can change this value to test different cases
 let grade = (scoreTernary >= 70) ? "Pass" : "Fail";
 console.log("Grade: " + grade);
+console.log("--------------------------------------------------\n");
+/*1. Print the numbers from 1 to 10 using a for loop. */
+console.log("23. Print numbers from 1 to 10:");
+for (let i = 1; i <= 10; i++) {
+    console.log(i);
+}       
 console.log("--------------------------------------------------\n");        
 
