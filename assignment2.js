@@ -145,3 +145,16 @@ let sampleString = "Hello World!";
 console.log("Uppercase: " + sampleString.toUpperCase());
 console.log("Lowercase: " + sampleString.toLowerCase());
 console.log("--------------------------------------------------\n");      
+/*Do the following:
+ Extract “JavaScript” using slice()
+ Replace “awesome” with “powerful”
+ Check if the string includes “Script”*/
+console.log("12. String manipulations:");
+let complexString = "JavaScript is awesome!";
+let extracted = complexString.slice(0, 10);
+console.log("Extracted using slice(): " + extracted);
+let replaced = complexString.replace("awesome", "powerful");
+console.log("After replacement: " + replaced);
+let includesScript = complexString.includes("Script");
+console.log("Includes 'Script': " + includesScript);
+console.log("--------------------------------------------------\n");    
