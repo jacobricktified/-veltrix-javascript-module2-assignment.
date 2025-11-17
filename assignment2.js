@@ -101,3 +101,17 @@ switch (dayNumber) {
     default: console.log("Invalid day number");
 }   
 console.log("--------------------------------------------------\n");
+/* Create a variable trafficLight and assign a value “yellow.;
+2. Use switch to print what the trafficLight should print:
+ "Stop"
+ "Get Ready"
+ "Go */
+console.log("8. Traffic light instructions:");
+let trafficLight = "yellow"; // You can change this value to test different cases
+switch (trafficLight) {
+    case "red": console.log("Stop"); break;
+    case "yellow": console.log("Get Ready"); break;
+    case "green": console.log("Go"); break;
+    default: console.log("Invalid traffic light color");
+}
+console.log("--------------------------------------------------\n");
