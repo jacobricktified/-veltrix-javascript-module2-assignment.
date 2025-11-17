@@ -241,4 +241,12 @@ let numberToCheckTernary = 9; // You can change this value to test different cas
 let result = (numberToCheckTernary % 2 === 0) ? "Even number" : "Odd number";
 console.log(result);
 console.log("--------------------------------------------------\n");    
-      
+/*Use a ternary to check if a user age is 18+ and print:
+ “Adult”
+ “Minor” */
+console.log("21. Ternary statement to check if user is adult or minor:");
+let userAgeTernary = 16; // You can change this value to test different cases
+let ageResult = (userAgeTernary >= 18) ? "Adult" : "Minor";
+console.log(ageResult);     
+console.log("--------------------------------------------------\n"); 
+
