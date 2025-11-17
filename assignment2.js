@@ -222,4 +222,16 @@ let a = ["A", "B"];
 let b = ["C", "D"];
 let combinedArray = a.concat(b);
 console.log("Combined array: ", combinedArray);
-console.log("--------------------------------------------------\n");    
+console.log("--------------------------------------------------\n");  
+/*Write a program that counts how many times a value appears in an array */
+console.log("19. Count occurrences of a value in an array:");
+let sampleArray = [1, 2, 3, 2, 4, 2, 5];
+let valueToCount = 2;   
+let occurrenceCount = 0;
+for (let i = 0; i < sampleArray.length; i++) {
+    if (sampleArray[i] === valueToCount) { 
+        occurrenceCount++;
+    }
+}
+console.log("The value " + valueToCount + " appears " + occurrenceCount + " times in the array.");
+console.log("--------------------------------------------------\n");        
