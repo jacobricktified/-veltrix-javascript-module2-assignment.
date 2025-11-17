@@ -309,3 +309,11 @@ for (let i = arrayToReverse.length - 1; i >= 0; i--) {
 }
 console.log("Reversed array: " + reversedArray);
 console.log("--------------------------------------------------\n");
+/* 1. Print numbers from 1 to 5 using a while loop */
+console.log("29. Print numbers from 1 to 5 using a while loop:");
+let countWhile = 1; 
+while (countWhile <= 5) {
+    console.log(countWhile);
+    countWhile++;
+}
+console.log("--------------------------------------------------\n");
