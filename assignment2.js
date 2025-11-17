@@ -115,3 +115,17 @@ switch (trafficLight) {
     default: console.log("Invalid traffic light color");
 }
 console.log("--------------------------------------------------\n");
+/* Write a switch program that takes a fruit name and prints its price:
+ Apple → 200
+ Banana → 150
+ Orange → 100
+ Default → “Fruit not available” */
+console.log("9. Print fruit price based on name:");
+let fruitName = "Banana"; // You can change this value to test different cases
+switch (fruitName) {
+    case "Apple": console.log("Price: 200"); break; 
+    case "Banana": console.log("Price: 150"); break;
+    case "Orange": console.log("Price: 100"); break;
+    default: console.log("Fruit not available");
+}   
+console.log("--------------------------------------------------\n");
